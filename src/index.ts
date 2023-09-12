@@ -1,9 +1,4 @@
-import express from 'express';
-import routes from './src/Routes/cities';
-
-const app = express();
-
-
+import { app } from './api';
 
 const Port = process.env.PORT || 8080; // port 5000 on heroku, 8080 port was open
 
