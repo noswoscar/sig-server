@@ -1,0 +1,7 @@
+stores document : cities {
+    name
+    departement
+    latitude
+    longitude
+    status: charged | uncharged
+}
